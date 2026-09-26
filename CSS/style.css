@@ -441,7 +441,7 @@ img, svg {
 #main_hero {
   width: 100vw;
   height: 620px;
-  background-image: url(/image/hero.png);
+  background-image: url(image/hero.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
