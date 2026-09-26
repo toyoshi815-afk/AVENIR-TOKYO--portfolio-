@@ -777,6 +777,14 @@ font-size: var(--h2-header-font);
 
 /* メディアクエリ */
 
+@media (max-width: 976px) {
+    #main_hero .main_visual_contents h1 {
+      min-width: 324px;
+      font-size: 1.6rem;
+    }
+  
+} 
+
 @media (max-width: 767px) {
 
   /* common */
@@ -833,10 +841,6 @@ font-size: var(--h2-header-font);
     left: 3%;
   }
 
-    #main_hero .main_visual_contents h1 {
-      min-width: 324px;
-      font-size: 1.6rem;
-    }
 
   .newArrival_item a img {
     height: 320px;
