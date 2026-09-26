@@ -778,12 +778,24 @@ font-size: var(--h2-header-font);
 /* メディアクエリ */
 
 @media (max-width: 976px) {
-    #main_hero .main_visual_contents h1 {
+  
+  #main_hero .main_visual_contents h1 {
       min-width: 324px;
       font-size: 1.6rem;
     }
   
+.newArrival_box {
+  grid-template-columns: repeat(3, 1fr);
+  }
 } 
+
+  .feature_img {
+    flex:2;
+  }
+
+  .feature_content {
+    flex: 1;
+  }
 
 @media (max-width: 767px) {
 
