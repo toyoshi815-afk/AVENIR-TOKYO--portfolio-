@@ -34,7 +34,6 @@
 
 body {
   font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "メイリオ", sans-serif;
-  padding: 0 var(--space-min);
 }
 
 ul, ol {
@@ -211,6 +210,7 @@ img, svg {
 }
 
 
+
  .overlay_search {
   position: fixed;
   top: 0;
@@ -282,6 +282,7 @@ img, svg {
 
   #search_window-button input {
     border-radius: 5px;
+    font-size: 16px;
   }
 
 
@@ -439,7 +440,7 @@ img, svg {
 }
 
 #main_hero {
-  width: 100vw;
+  width: 100%;
   height: 620px;
   background-image: url(../image/hero.png);
   background-size: cover;
@@ -681,7 +682,6 @@ font-size: var(--h2-header-font);
   align-items: center;
 }
 
-
 /* フッター */
 
 #footer {
@@ -826,6 +826,17 @@ font-size: var(--h2-header-font);
     }
 
   /* main visual */
+
+  #main_hero .main_visual_contents {
+    padding: 12px 16px 0px 16px;
+    width: auto;
+    left: 5%;
+  }
+
+    #main_hero .main_visual_contents h1 {
+      min-width: 324px;
+      font-size: 1.6rem;
+    }
 
   .newArrival_item a img {
     height: 320px;
