@@ -740,7 +740,8 @@ font-size: var(--h2-header-font);
 
 #footer_bottom {
   border-top: 1px solid var(--line);
-  padding-top: var(--space-mid);
+  margin-top: var(--space);
+  padding-top: var(--space);
   display: flex;
   justify-content: space-between;
 }
