@@ -283,7 +283,10 @@ img, svg {
 
   #search_window-button input {
     border-radius: 5px;
+    width: 200px;
+    height: 30px;
     font-size: 16px;
+    border: 1px solid var(--line);
   }
 
 
@@ -396,7 +399,9 @@ img, svg {
   #hamburger_search-button input {
     border-radius: 5px;
     width: 200px;
+    height: 30px;
     font-size: 16px;
+    border: 1px solid var(--line);
  }
 
   #hamburger_category_menu {
