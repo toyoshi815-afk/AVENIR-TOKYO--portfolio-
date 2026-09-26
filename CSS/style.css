@@ -673,6 +673,14 @@ font-size: var(--h2-header-font);
   align-items: center;
 }
 
+.feature_button a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* フッター */
 
